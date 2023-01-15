@@ -36,4 +36,11 @@ html, body {
     margin-top: 20px;
   }
   
+  input,
+textarea,
+button,
+select,
+a {
+    -webkit-tap-highlight-color: transparent;
+}
   
