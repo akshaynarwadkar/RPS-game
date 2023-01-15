@@ -61,6 +61,7 @@ function result(pChoice){
     endGameButtonEl.onclick=()=>{
         handsEl.innerText=''
         resultEl.innerText=''
+        newscore=0
         playerScoreEl.innerText=''
     }
 }
