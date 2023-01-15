@@ -46,7 +46,7 @@ function result(pChoice){
     handsEl.innerText=` 🧑  ${pChoice} vs 🤖 ${ComputerChoice}`
 
     newscore=newscore+score
-    playerScoreEl.innerText=newscore
+    playerScoreEl.innerText=`Your score ${newscore}`
 
     const resultEl=document.getElementById('result')
     if(score==1){
